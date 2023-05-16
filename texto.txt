@@ -1,1 +1,21 @@
 hola
+
+otro cambio
+
+git config --global user.name "jromer7"
+
+git config --global user.email "jromer499@gmail.com"
+
+git init
+git status
+git add .
+git commit -m "primer commit"
+
+
+
+git remote add origin https://github.com/jromer7/sis457_clone1.git
+git branch -M main
+git push -u origin main
+
+git commit -m "primer commit"
+git push
